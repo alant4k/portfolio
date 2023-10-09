@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
@@ -11,7 +10,7 @@ import pfp from '@/public/p2.png';
 
 export default function Intro() {
 	return (
-		<section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+		<section className="mb-28 max-w-[52rem] text-center sm:mb-0">
 			<div className="flex items-center justify-center">
 				<div className="relative">
 					<motion.div
@@ -42,7 +41,7 @@ export default function Intro() {
 					</motion.span>
 				</div>
 			</div>
-			<motion.p
+			<motion.h1
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}
 				className="mb-10 mt-4 px-4 font-medium text-2xl !leading-[1.5]"
@@ -53,7 +52,7 @@ export default function Intro() {
 				experiência. Tenho entusiasmo por desenvolver aplicações web.
 				Minha especialidade é em{' '}
 				<span className="underline">React(Next.js)</span>.
-			</motion.p>
+			</motion.h1>
 			<motion.div
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}
