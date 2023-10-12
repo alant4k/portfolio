@@ -5,3 +5,11 @@
 html {
 	--line-color: #e5e7eb;
 }
+
+.alert {
+	@apply text-red-600 font-light border border-x-0 border-t-0 border-b-red-600;
+}
+
+.success {
+	@apply text-green-600 font-medium border-2 border-green-600 rounded-lg;
+}

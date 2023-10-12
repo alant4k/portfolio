@@ -13,7 +13,7 @@ import { useSectionView } from '@/lib/hooks';
 export default function Experience() {
 	const { ref } = useSectionView('Experience', 0.65);
 	return (
-		<section ref={ref} id="experience">
+		<section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb40">
 			<SectionHeading>My Experience</SectionHeading>
 			<VerticalTimeline animate lineColor="">
 				{experiencesData.map((item, i) => (
