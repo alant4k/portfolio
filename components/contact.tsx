@@ -26,36 +26,6 @@ export default function Contact() {
 				or through this form.
 			</p>
 			<ContactForm />
-			{/* <form
-				action={async (formData) => {
-					console.log(formData.get('senderEmail'));
-					console.log(formData.get('senderMessage'));
-				}}
-				className="flex flex-col mt-10"
-			>
-				<input
-					placeholder="Seu email"
-					type="email"
-					name="senderEmail"
-					required
-					maxLength={100}
-					className="h-14 rounded-lg border border-black/10 px-4"
-				/>
-				<textarea
-					placeholder="Sua mensagem"
-					name="senderMessage"
-					required
-					maxLength={500}
-					className="h-52 my-3 rounded-lg border border-black/10 p-4"
-				/>
-				<button
-					type="submit"
-					className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 active:scale-110 hover:bg-gray-950"
-				>
-					Submit{' '}
-					<FaPaperPlane className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1" />{' '}
-				</button>
-			</form> */}
 		</motion.section>
 	);
 }
