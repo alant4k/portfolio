@@ -8,17 +8,9 @@ import clsx from 'clsx';
 import { useState } from 'react';
 import { sendEmail } from '@/actions/sendEmail';
 
-const delay = (ms: number) =>
-	new Promise((resolve, reject) => {
-		const test = Math.random() > 0.5;
-		setTimeout(() => {
-			if (test) resolve(null);
-			else reject(null);
-		}, ms);
-	});
-
 export default function ContactForm() {
 	const [submitted, setSubmitted] = useState(false);
+
 	async function handleSubmit(
 		values: formData,
 		actions: FormikHelpers<formData>,
@@ -36,6 +28,7 @@ export default function ContactForm() {
 			});
 		}
 	}
+
 	return (
 		<>
 			<Formik
@@ -48,7 +41,7 @@ export default function ContactForm() {
 				onSubmit={handleSubmit}
 			>
 				{({ errors, touched, isSubmitting }) => (
-					<Form className="flex flex-col mt-10">
+					<Form className="flex flex-col mt-10 dark:text-black">
 						{submitted ? (
 							<div className="success">✔ Sua mensagem partiu com sucesso</div>
 						) : (
@@ -56,7 +49,7 @@ export default function ContactForm() {
 								<Field
 									name="senderEmail"
 									placeholder="Seu email"
-									className="h-14 rounded-lg border border-black/10 px-4"
+									className="h-14 rounded-lg border border-black/10 dark:bg-white/80 dark:focus:bg-white/100 transition-all dark:outline-none px-4"
 								/>
 								{errors.senderEmail && touched.senderEmail ? (
 									<div className="alert">{errors.senderEmail}</div>
@@ -65,7 +58,7 @@ export default function ContactForm() {
 									name="message"
 									placeholder="Escreva aqui sua mensagem"
 									as="textarea"
-									className="h-52 my-3 rounded-lg border border-black/10 p-4"
+									className="h-52 my-3 rounded-lg border border-black/10 dark:bg-white/80 dark:focus:bg-white/100 transition-all dark:outline-none p-4"
 								/>
 								{errors.message && touched.message ? (
 									<div className="alert mb-4">{errors.message}</div>
@@ -75,7 +68,7 @@ export default function ContactForm() {
 									type="submit"
 									disabled={isSubmitting}
 									className={clsx(
-										'group flex items-center justify-center gap-2 h-[3rem] w-[8rem] text-white rounded-full outline-none transition-all ',
+										'group flex items-center justify-center gap-2 h-[3rem] w-[8rem] text-white rounded-full outline-none transition-all dark:bg-white/10',
 										{
 											'bg-gray-400 cursor-not-allowed': isSubmitting,
 											'bg-gray-900 focus:scale-110 hover:scale-110 active:scale-110 hover:bg-gray-950':

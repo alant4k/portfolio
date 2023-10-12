@@ -18,7 +18,7 @@ export default function Contact() {
 			className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
 		>
 			<SectionHeading>Entre em contato</SectionHeading>
-			<p className="text-gray-700 -mt-6">
+			<p className="text-gray-700 -mt-6 dark:text-white/80">
 				Entre em contato comigo diretamente no{' '}
 				<a href="https://t.me/alantnk" className="font-bold text-blue-400">
 					Telegram

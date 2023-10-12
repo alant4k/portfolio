@@ -6,6 +6,10 @@ html {
 	--line-color: #e5e7eb;
 }
 
+html.dark {
+	--line-color: #494949;
+}
+
 .alert {
 	@apply text-red-600 font-light border border-x-0 border-t-0 border-b-red-600;
 }
