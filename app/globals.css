@@ -13,3 +13,7 @@ html {
 .success {
 	@apply text-green-600 font-medium border-2 border-green-600 rounded-lg;
 }
+
+.error {
+	@apply text-red-600 font-medium border-2 border-red-600 rounded-lg;
+}

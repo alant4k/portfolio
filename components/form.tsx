@@ -32,7 +32,7 @@ export default function ContactForm() {
 			actions.setSubmitting(false);
 			actions.setErrors({
 				global:
-					'Ocorreu um erro ao enviar seu e-mail. Por favor, tente novamente mais tarde.',
+					'✖ Ocorreu um erro ao enviar sua mensagem. Tente novamente mais tarde',
 			});
 		}
 	}
@@ -50,7 +50,7 @@ export default function ContactForm() {
 				{({ errors, touched, isSubmitting }) => (
 					<Form className="flex flex-col mt-10">
 						{submitted ? (
-							<div className="success">Email enviado com sucesso.</div>
+							<div className="success">✔ Sua mensagem partiu com sucesso</div>
 						) : (
 							<>
 								<Field
@@ -95,7 +95,7 @@ export default function ContactForm() {
 									)}
 								</button>
 								{errors.global ? (
-									<div className="alert mt-4">{errors.global}</div>
+									<div className="error mt-4">{errors.global}</div>
 								) : null}
 							</>
 						)}

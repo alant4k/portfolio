@@ -4,7 +4,7 @@ import SectionHeading from './section-heading';
 import { useSectionView } from '@/lib/hooks';
 
 export default function About() {
-	const { ref } = useSectionView('About');
+	const { ref } = useSectionView('Sobre');
 	return (
 		<motion.section
 			initial={{ opacity: 0, y: 100 }}
@@ -14,32 +14,38 @@ export default function About() {
 			id="about"
 			ref={ref}
 		>
-			<SectionHeading>About me</SectionHeading>
+			<SectionHeading>Minha História</SectionHeading>
 			<p className="mb-3">
-				After graduating with a degree in{' '}
-				<span className="font-medium">Accounting</span>, I decided to pursue my
-				passion for programming. I enrolled in a coding bootcamp and learned{' '}
-				<span className="font-medium">full-stack web development</span>.{' '}
-				<span className="italic">My favorite part of programming</span> is the
-				problem-solving aspect. I <span className="underline">love</span> the
-				feeling of finally figuring out a solution to a problem. My core stack
-				is{' '}
-				<span className="font-medium">
-					React, Next.js, Node.js, and MongoDB
-				</span>
-				. I am also familiar with TypeScript and Prisma. I am always looking to
-				learn new technologies. I am currently looking for a{' '}
-				<span className="font-medium">full-time position</span> as a software
-				developer.
+				Existiu um tempo em que não me via como programador. Em 2017, quando
+				trabalhava como técnico de suporte em uma empresa de software, um colega
+				me enviou um livro em formato PDF sobre{' '}
+				<span className="font-semibold">Python</span>. Meu trabalho se resumia a
+				atividades tediosas, então, como forma de passar o tempo, comecei a ler
+				esse livro (<span className="italic">Curso Intensivo de Python</span> ,
+				ed. Novatec). Em menos de dois meses, lendo em média dez páginas por
+				dia, me vi fascinado por algo que antes era obscuro para mim, até porque
+				nunca entendi o que programação representava. A partir daquele momento,
+				decidi trilhar esse caminho e me profissionalizar por meio de cursos e
+				mais leituras. Em 2021, ingressei na{' '}
+				<span className="underline">Trybe</span> e, em um ano, alcancei meu
+				objetivo: iniciei no meu primeiro cargo como Desenvolvedor Front-end.
+			</p>
+			<p>
+				Minhas stacks principais são{' '}
+				<span className="font-semibold"> React, Next.js, Node.js</span>. Também
+				estou familiarizado com{' '}
+				<span className="font-semibold">
+					Vue, TypeScript, MongoDB, Python, Git, Docker e AWS
+				</span>{' '}
+				. Estou em constante busca de adquirir novos conhecimentos e
+				colaborações. Atualmente estou procurando uma posição em tempo integral
+				como <span className="font-semibold">Desenvolvedor Fullstack</span> .
 			</p>
 
 			<p>
-				<span className="italic">When I am not coding</span>, I enjoy playing
-				video games, watching movies, and playing with my dog. I also enjoy{' '}
-				<span className="font-medium">learning new things</span>. I am currently
-				learning about{' '}
-				<span className="font-medium">history and philosophy</span>. I am also
-				learning how to play the guitar.
+				Quando não estou programando, gosto de ler, assistir filmes e no tempo
+				livre tomar um banho de mar. Também gosto de esportes. Atualmente
+				comecei a praticar jiu-jitsu como forma de manter me mais focado.
 			</p>
 		</motion.section>
 	);

@@ -1,7 +1,7 @@
 import { createElement } from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
+import { TbCertificate } from 'react-icons/tb';
+
 import corpcommentImg from '@/public/corpcomment.png';
 import rmtdevImg from '@/public/rmtdev.png';
 import wordanalyticsImg from '@/public/wordanalytics.png';
@@ -12,51 +12,59 @@ export const links = [
 		hash: '#home',
 	},
 	{
-		name: 'About',
+		name: 'Sobre',
 		hash: '#about',
 	},
 	{
-		name: 'Projects',
+		name: 'Projetos',
 		hash: '#projects',
 	},
 	{
-		name: 'Skills',
+		name: 'Habilidades',
 		hash: '#skills',
 	},
 	{
-		name: 'Experience',
+		name: 'Experiências',
 		hash: '#experience',
 	},
 	{
-		name: 'Contact',
+		name: 'Contato',
 		hash: '#contact',
 	},
 ] as const;
 
 export const experiencesData = [
 	{
-		title: 'Graduated bootcamp',
-		location: 'Miami, FL',
+		title: 'Web Moderno com JavaScript',
+		location: 'Udemy',
 		description:
-			'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
-		icon: createElement(LuGraduationCap),
+			'Aprendi os fundamentos de JavaScript, Node.js, HTML5, CSS3, Angular, React e Vue. Também aprendi a desenvolver aplicativos backend eficientes com Node.js e Express, e a trabalhar com bancos de dados relacionais e não relacionais.',
+		icon: createElement(TbCertificate),
 		date: '2019',
 	},
 	{
-		title: 'Front-End Developer',
-		location: 'Orlando, FL',
+		title: 'Formação Web Fullstack',
+		location: 'Trybe',
 		description:
-			'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
-		icon: createElement(CgWorkAlt),
-		date: '2019 - 2021',
+			'Com mais de 1400 horas de aula em um ano, aprimorei meu entendimento sobre aplicações web com HTML, CSS, JavaScript e React. No back-end, criei projetos com Node.js e Express, e trabalhei com bancos de dados relacionais e não relacionais. Também adquiri conhecimentos sobre testes com Mocha, Chai e Python. Além das habilidades técnicas, também desenvolvi soft skills importantes, como trabalho em equipe, comunicação eficaz e resolução de problemas.',
+		icon: createElement(TbCertificate),
+		date: '2021 - 2022',
 	},
 	{
-		title: 'Full-Stack Developer',
-		location: 'Houston, TX',
+		title: 'Desenvolvedor Front-end',
+		location: 'Ubistart',
 		description:
-			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-		icon: createElement(FaReact),
-		date: '2021 - present',
+			'Desenvolvimento de código. Design responsivo. Otimizar o desempenho das páginas web. Trabalhar em estreita colaboração com designers, desenvolvedores e outros membros da equipe para garantir a integração adequada da aplicação.',
+		icon: createElement(CgWorkAlt),
+		date: '10/2021 - 06/2022',
+	},
+	{
+		title: 'Desenvolvedor Back-end',
+		location: 'Grupo Fornecedora',
+		description:
+			'Trabalhar com APIs de terceiros, integrando-as ao aplicativo para acessar dados externos ou serviços. Realizar manutenção contínua do aplicativo, corrigindo problemas, fazendo melhorias e atualizando recursos conforme necessário. Comunicar-se de forma eficaz com a equipe e documentar as decisões e processos relacionados ao desenvolvimento.',
+		icon: createElement(CgWorkAlt),
+		date: '06/2022 - 01/2023',
 	},
 ] as const;
 
@@ -91,17 +99,18 @@ export const skillsData = [
 	'TypeScript',
 	'React',
 	'Next.js',
-	'Node.js',
 	'Tailwind',
-	'Prisma',
-	'MongoDB',
-	'Redux',
-	'GraphQL',
+	'Node.js',
 	'Express',
-	'PostgreSQL',
+	'Prisma',
+	'MySQL',
+	'MongoDB',
+	'Axios',
+	'GraphQL',
+	'Mocha',
 	'Python',
 	'Django',
-	'Framer Motion',
+	'Flask',
 	'Git',
 	'Docker',
 	'AWS',

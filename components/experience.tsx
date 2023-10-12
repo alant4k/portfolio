@@ -11,10 +11,10 @@ import { Fragment } from 'react';
 import { useSectionView } from '@/lib/hooks';
 
 export default function Experience() {
-	const { ref } = useSectionView('Experience', 0.65);
+	const { ref } = useSectionView('Experiências', 0.4);
 	return (
 		<section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb40">
-			<SectionHeading>My Experience</SectionHeading>
+			<SectionHeading>Experiências</SectionHeading>
 			<VerticalTimeline animate lineColor="">
 				{experiencesData.map((item, i) => (
 					<Fragment key={i}>
@@ -38,7 +38,7 @@ export default function Experience() {
 						>
 							<h3 className="!font-semibold capitalize">{item.title}</h3>
 							<p className="!font-normal !mt-0">{item.location}</p>
-							<p className="!mt-0 !font-normal text-gray-700">
+							<p className="!mt-0 !font-light text-gray-700">
 								{item.description}
 							</p>
 						</VerticalTimelineElement>
