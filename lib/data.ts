@@ -79,20 +79,20 @@ export const projectsData = [
 		source: 'https://gpanel-six.vercel.app/',
 	},
 	{
+		title: 'Users API',
+		description:
+		'API com banco de dados. Ela possui métodos HTTP para criação, leitura, edição e remoção de recursos. Também contém testes automatizados. ',
+		tags: ['Node', 'Typescript', 'Docker', 'MongoDB', 'Mocha'],
+		imageUrl: node_api,
+		source: 'https://github.com/alant2031/users-ts-api',
+	},
+	{
 		title: 'Learning Log',
 		description:
 			'Uma aplicação de diário de aprendizado onde os usuários podem criar tópicos e registrar suas entradas, com funcionalidades de autenticação de usuário.',
 		tags: ['Python', 'Django', 'Bootstrap'],
 		imageUrl: learning_log,
 		source: 'https://github.com/alant2031/LearningLog',
-	},
-	{
-		title: 'Users API',
-		description:
-			'API com banco de dados. Ela possui métodos HTTP para criação, leitura, edição e remoção de recursos. Também contém testes automatizados. ',
-		tags: ['Node', 'Typescript', 'Docker', 'MongoDB', 'Mocha'],
-		imageUrl: node_api,
-		source: 'https://github.com/alant2031/users-ts-api',
 	},
 	{
 		title: 'Vue Sidebar',

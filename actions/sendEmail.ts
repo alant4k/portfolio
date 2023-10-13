@@ -11,7 +11,7 @@ export async function sendEmail(data: formData) {
 		const resend_data = await resend.emails.send({
 			from: 'Acme <onboarding@resend.dev>',
 			to: 'alanctnk@gmail.com',
-			subject: '📩 atdev.vercel.app',
+			subject: '📩 alantd.vercel.app',
 			react: createElement(EmailTemplate, data),
 			reply_to: data.senderEmail,
 		});
