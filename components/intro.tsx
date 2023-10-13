@@ -54,7 +54,7 @@ export default function Intro() {
 				animate={{ opacity: 1, y: 0 }}
 				className="mb-10 mt-4 px-4 font-medium text-2xl !leading-[1.5]"
 			>
-				<span className="font-bold">Olá, eu sou Alan.</span> Sou desenvolvedor{' '}
+				<span className="font-bold">Olá, eu sou Alan.</span> Desenvolvedor{' '}
 				<span className="font-bold">full-stack</span> com mais de{' '}
 				<span className="font-bold">3 anos</span> de experiência. Tenho
 				entusiasmo por desenvolver aplicações web. Minha especialidade é em{' '}
