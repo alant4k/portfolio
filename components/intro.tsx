@@ -6,7 +6,7 @@ import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
 
-import pfp from '@/public/p2.png';
+import pfp from '@/public/p2.jpg';
 import { useSectionView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 

@@ -32,7 +32,7 @@ export default function About() {
 			</p>
 			<p>
 				Minhas stacks principais são{' '}
-				<span className="font-semibold"> React, Next.js, Node.js</span>. Também
+				<span className="font-semibold"> React, Next.js e Node.js</span>. Também
 				estou familiarizado com{' '}
 				<span className="font-semibold">
 					TypeScript, Vue, MongoDB, Python, Git, Docker e AWS

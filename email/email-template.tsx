@@ -10,15 +10,17 @@ import { formData } from '@/lib/types';
 
 function EmailTemplate({ message }: formData) {
 	return (
-		<Html>
-			<Head />
-			<Tailwind>
+		<Tailwind>
+			<Html>
+				<Head />
 				<Preview>Uma nova mensagem do seu website!</Preview>
-				<Body className="bg-amber-100 w-[50%] p-4 rounded">
-					<Text>{message}</Text>
+				<Body className="w-full">
+					<div className="w-5/6 sm:w-4/6 bg-amber-100 rounded flex flex-wrap p-4">
+						<Text className="self-start">{message}</Text>
+					</div>
 				</Body>
-			</Tailwind>
-		</Html>
+			</Html>
+		</Tailwind>
 	);
 }
 
