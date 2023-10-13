@@ -2,9 +2,10 @@ import { createElement } from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { TbCertificate } from 'react-icons/tb';
 
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import gpanel from '@/public/gp.png';
+import vue_sidebar from '@/public/vs.png';
+import learning_log from '@/public/LL.png';
+import node_api from '@/public/api.png';
 
 export const links = [
 	{
@@ -70,25 +71,36 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: 'CorpComment',
+		title: 'GPanel',
 		description:
-			'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-		tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-		imageUrl: corpcommentImg,
+			'Painel administrativo interativo com tabelas, formulários, validações, gráficos e uma variedade de elementos para uma experiência completa.',
+		tags: ['React', 'Vite', 'Material UI'],
+		imageUrl: gpanel,
+		source: 'https://gpanel-six.vercel.app/',
 	},
 	{
-		title: 'rmtDev',
+		title: 'Learning Log',
 		description:
-			'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-		tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-		imageUrl: rmtdevImg,
+			'Uma aplicação de diário de aprendizado onde os usuários podem criar tópicos e registrar suas entradas, com funcionalidades de autenticação de usuário.',
+		tags: ['Python', 'Django', 'Bootstrap'],
+		imageUrl: learning_log,
+		source: 'https://github.com/alant2031/LearningLog',
 	},
 	{
-		title: 'Word Analytics',
+		title: 'Users API',
 		description:
-			'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-		tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-		imageUrl: wordanalyticsImg,
+			'Aplicação de API com banco de dados. Ela possui métodos HTTP para criação, leitura, edição e remoção de recursos. Também contém testes automatizados. ',
+		tags: ['Node', 'Typescript', 'Docker', 'MongoDB', 'Mocha'],
+		imageUrl: node_api,
+		source: 'https://github.com/alant2031/users-ts-api',
+	},
+	{
+		title: 'Vue Sidebar',
+		description:
+			'Uma simples barra lateral responsiva com animações em CSS. Essa aplicação foi feita principalmente para manter minha compreensão do Vue atualizada para uso futuro.',
+		tags: ['Vue', 'Vite', 'SASS'],
+		imageUrl: vue_sidebar,
+		source: 'https://github.com/alant2031/vue-sidebar/tree/main',
 	},
 ] as const;
 
