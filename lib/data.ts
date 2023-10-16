@@ -76,7 +76,7 @@ export const projectsData = [
 			'Website de exposição de carros com pesquisa por fabricante, modelo, ano e mais.',
 		tags: ['React', 'Next.js', 'Typescript', 'Tailwind'],
 		imageUrl: cars,
-		source: 'https://github.com/alant2031/vue-sidebar/tree/main',
+		source: 'https://car-showcase-zk.vercel.app/',
 	},
 	{
 		title: 'GPanel',
