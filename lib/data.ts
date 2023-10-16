@@ -3,7 +3,7 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { TbCertificate } from 'react-icons/tb';
 
 import gpanel from '@/public/gp.png';
-import vue_sidebar from '@/public/vs.png';
+import cars from '@/public/cars.png';
 import learning_log from '@/public/LL.png';
 import node_api from '@/public/api.png';
 
@@ -44,7 +44,7 @@ export const experiencesData = [
 		date: '2019',
 	},
 	{
-		title: 'Formação Web Fullstack',
+		title: 'Formação Web Full Stack',
 		location: 'Trybe',
 		description:
 			'Com mais de 1400 horas de aula em um ano, aprimorei meu entendimento sobre aplicações web com HTML, CSS, JavaScript e React. No back-end, criei projetos com Node.js e Express, e trabalhei com bancos de dados relacionais e não relacionais. Também adquiri conhecimentos sobre testes com Mocha, Chai e Python. Além das habilidades técnicas, também desenvolvi soft skills importantes, como trabalho em equipe, comunicação eficaz e resolução de problemas.',
@@ -71,6 +71,14 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
+		title: 'Car Showcase',
+		description:
+			'Website de exposição de carros com pesquisa por fabricante, modelo, ano e mais.',
+		tags: ['React', 'Next.js', 'Typescript', 'Tailwind'],
+		imageUrl: cars,
+		source: 'https://github.com/alant2031/vue-sidebar/tree/main',
+	},
+	{
 		title: 'GPanel',
 		description:
 			'Painel administrativo interativo com tabelas, formulários, validações, gráficos e uma variedade de elementos para uma experiência completa.',
@@ -81,7 +89,7 @@ export const projectsData = [
 	{
 		title: 'Users API',
 		description:
-		'API com banco de dados. Ela possui métodos HTTP para criação, leitura, edição e remoção de recursos. Também contém testes automatizados. ',
+			'API com banco de dados. Ela possui métodos HTTP para criação, leitura, edição e remoção de recursos. Também contém testes automatizados. ',
 		tags: ['Node', 'Typescript', 'Docker', 'MongoDB', 'Mocha'],
 		imageUrl: node_api,
 		source: 'https://github.com/alant2031/users-ts-api',
@@ -93,14 +101,6 @@ export const projectsData = [
 		tags: ['Python', 'Django', 'Bootstrap'],
 		imageUrl: learning_log,
 		source: 'https://github.com/alant2031/LearningLog',
-	},
-	{
-		title: 'Vue Sidebar',
-		description:
-			'Uma simples barra lateral responsiva com animações em CSS. Essa aplicação foi feita principalmente para manter minha compreensão do Vue atualizada para uso futuro.',
-		tags: ['Vue', 'Vite', 'SASS'],
-		imageUrl: vue_sidebar,
-		source: 'https://github.com/alant2031/vue-sidebar/tree/main',
 	},
 ] as const;
 

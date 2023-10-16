@@ -20,13 +20,13 @@ export default function About() {
 				trabalhava como técnico de suporte em uma empresa de software, um colega
 				me enviou um livro em formato PDF sobre{' '}
 				<span className="font-semibold">Python</span>. Meu trabalho se resumia a
-				atividades tediosas, então, como forma de passar o tempo, comecei a ler
+				tarefas rotineiras, então, como forma de passar o tempo, comecei a ler
 				esse livro (<span className="italic">Curso Intensivo de Python</span> ,
 				ed. Novatec). Em pouco tempo, me vi fascinado por algo que antes era um
 				enigma para mim, sobretudo porque a programação sempre pareceu um
-				conceito inacessível. Desde aquele ponto, decidi seguir esse caminho e
-				me tornar um profissional, investindo em cursos e leituras constantes.
-				Em 2021, ingressei na <span className="underline">Trybe</span> e, em um
+				conceito obscuro. Desde aquele ponto, decidi seguir esse caminho e me
+				tornar um profissional, investindo em cursos e leituras constantes. Em
+				2021, ingressei na <span className="underline">Trybe</span> e, em um
 				ano, alcancei meu objetivo: iniciei no meu primeiro cargo como
 				Desenvolvedor Front-end.
 			</p>
@@ -39,7 +39,7 @@ export default function About() {
 				</span>{' '}
 				. Estou em constante busca de adquirir novos conhecimentos e
 				colaborações. Atualmente estou procurando uma posição em tempo integral
-				como <span className="font-semibold">Desenvolvedor Fullstack</span> .
+				como <span className="font-semibold">Desenvolvedor Full Stack</span>.
 			</p>
 
 			<p>
