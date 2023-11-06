@@ -47,7 +47,7 @@ export const experiencesData = [
 		title: 'Formação Web Full Stack',
 		location: 'Trybe',
 		description:
-			'Com mais de 1400 horas de aula em um ano, aprimorei meu entendimento sobre aplicações web com HTML, CSS, JavaScript e React. No back-end, criei projetos com Node.js e Express, e trabalhei com bancos de dados relacionais e não relacionais. Também adquiri conhecimentos sobre testes com Mocha, Chai e Python. Além das habilidades técnicas, também desenvolvi soft skills importantes, como trabalho em equipe, comunicação eficaz e resolução de problemas.',
+			'Com mais de 1400 horas de aula em um ano, aprimorei fundamentos sobre aplicações web com HTML, CSS, JavaScript e React. No back-end, criei projetos com Node.js e Express, e trabalhei com bancos de dados relacionais e não relacionais. Também adquiri conhecimentos sobre testes com Mocha, Chai e Python. Além das habilidades técnicas, também desenvolvi soft skills importantes, como trabalho em equipe, comunicação e autogestão.',
 		icon: createElement(TbCertificate),
 		date: '2021 - 2022',
 	},
@@ -63,7 +63,7 @@ export const experiencesData = [
 		title: 'Desenvolvedor Back-end',
 		location: 'Grupo Fornecedora',
 		description:
-			'Trabalhar com APIs de terceiros, integrando-as ao aplicativo para acessar dados externos ou serviços. Realizar manutenção contínua do aplicativo, corrigindo problemas, fazendo melhorias e atualizando recursos conforme necessário. Comunicar-se de forma eficaz com a equipe e documentar as decisões e processos relacionados ao desenvolvimento.',
+			'Trabalhar com APIs de terceiros, integrando-as ao aplicativo para acessar dados externos ou serviços. Realizar manutenção contínua do aplicativo, corrigindo problemas, fazendo melhorias e atualizando recursos conforme necessário.',
 		icon: createElement(CgWorkAlt),
 		date: '06/2022 - 01/2023',
 	},
@@ -122,6 +122,7 @@ export const skillsData = [
 	'Python',
 	'Django',
 	'Flask',
+	'GraphQL',
 	'Git',
 	'Docker',
 	'AWS',

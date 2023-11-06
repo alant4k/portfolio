@@ -18,17 +18,16 @@ export default function About() {
 			<p className="mb-3">
 				Existiu um tempo em que não me via como programador. Em 2017, quando
 				trabalhava como técnico de suporte em uma empresa de software, um colega
-				me enviou um livro em formato PDF sobre{' '}
-				<span className="font-semibold">Python</span>. Meu trabalho se resumia a
-				tarefas rotineiras, então, como forma de passar o tempo, comecei a ler
-				esse livro (<span className="italic">Curso Intensivo de Python</span> ,
-				ed. Novatec). Em pouco tempo, me vi fascinado por algo que antes era um
-				enigma para mim, sobretudo porque a programação sempre pareceu um
-				conceito obscuro. Desde aquele ponto, decidi seguir esse caminho e me
-				tornar um profissional, investindo em cursos e leituras constantes. Em
-				2021, ingressei na <span className="underline">Trybe</span> e, em um
-				ano, alcancei meu objetivo: iniciei no meu primeiro cargo como
-				Desenvolvedor Front-end.
+				me enviou um livro sobre <span className="font-semibold">Python</span> (
+				<span className="italic">Curso Intensivo de Python</span> , ed.
+				Novatec). Meu trabalho se resumia a tarefas rotineiras, então, como
+				forma de passar o tempo, comecei a ler esse livro. Em pouco tempo, me vi
+				fascinado por algo que antes era um enigma para mim, sobretudo porque a
+				programação sempre pareceu um conceito obscuro. Desde aquele ponto,
+				decidi seguir esse caminho e me tornar um profissional, investindo em
+				cursos e leituras constantes. Em 2021, ingressei na{' '}
+				<span className="underline">Trybe</span> e, em um ano, alcancei meu
+				objetivo: iniciei no meu primeiro cargo como Desenvolvedor Front-end.
 			</p>
 			<p>
 				Minhas stacks principais são{' '}
