@@ -14,18 +14,18 @@ export default function About() {
 			id="about"
 			ref={ref}
 		>
+			{/* Em 2017, enquanto trabalhava como técnico de suporte em uma empresa de software, um colega me enviou o livro "Curso Intensivo de Python" (ed. Novatec). Diante das tarefas rotineiras, comecei a lê-lo para passar o tempo. */}
 			<SectionHeading>Minha História</SectionHeading>
 			<p className="mb-3">
-				Existiu um tempo em que não me via como programador. Em 2017, quando
+				Existiu um tempo em que não me via como programador. Em 2017, enquanto
 				trabalhava como técnico de suporte em uma empresa de software, um colega
-				me enviou um livro sobre <span className="font-semibold">Python</span> (
-				<span className="italic">Curso Intensivo de Python</span> , ed.
-				Novatec). Meu trabalho se resumia a tarefas rotineiras, então, como
-				forma de passar o tempo, comecei a ler esse livro. Em pouco tempo, me vi
-				fascinado por algo que antes era um enigma para mim, sobretudo porque a
-				programação sempre pareceu um conceito obscuro. Desde aquele ponto,
-				decidi seguir esse caminho e me tornar um profissional, investindo em
-				cursos e leituras constantes. Em 2021, ingressei na{' '}
+				me enviou o livro{' '}
+				<span className="italic">Curso Intensivo de Python</span> (ed. Novatec).
+				Diante das tarefas rotineiras, comecei a lê-lo para passar o tempo. Em
+				pouco tempo, me vi fascinado por algo que antes era um enigma para mim,
+				sobretudo porque a programação sempre pareceu um conceito obscuro. Desde
+				aquele ponto, decidi seguir esse caminho e me tornar um profissional,
+				investindo em cursos e leituras constantes. Em 2021, ingressei na{' '}
 				<span className="underline">Trybe</span> e, em um ano, alcancei meu
 				objetivo: iniciei no meu primeiro cargo como Desenvolvedor Front-end.
 			</p>
@@ -34,7 +34,7 @@ export default function About() {
 				<span className="font-semibold"> React, Next.js e Node.js</span>. Também
 				estou familiarizado com{' '}
 				<span className="font-semibold">
-					TypeScript, Vue, MongoDB, Python, Git, Docker e AWS
+					TypeScript, Vue, MySQL, MongoDB, Python, Git, Docker e AWS
 				</span>{' '}
 				. Estou em constante busca de adquirir novos conhecimentos e
 				colaborações. Atualmente estou procurando uma posição em tempo integral
