@@ -36,14 +36,6 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: 'Web Moderno com JavaScript',
-		location: 'Udemy',
-		description:
-			'Aprendi os fundamentos de JavaScript, Node.js, HTML5, CSS3, Angular, React e Vue. Também aprendi a desenvolver aplicativos backend eficientes com Node.js e Express, e a trabalhar com bancos de dados relacionais e não relacionais.',
-		icon: createElement(TbCertificate),
-		date: '2019',
-	},
-	{
 		title: 'Formação Web Full Stack',
 		location: 'Trybe',
 		description:
@@ -127,5 +119,6 @@ export const skillsData = [
 	'GraphQL',
 	'Git',
 	'Docker',
+	'Supabase',
 	'AWS',
 ] as const;
