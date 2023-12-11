@@ -38,7 +38,7 @@ export default function About() {
 				</span>{' '}
 				. Estou em constante busca de adquirir novos conhecimentos e
 				colaborações. Atualmente estou procurando uma posição em tempo integral
-				como <span className="font-semibold">Desenvolvedor Full Stack</span>.
+				como <span className="font-semibold">Desenvolvedor Front-end</span>.
 			</p>
 
 			<p>
