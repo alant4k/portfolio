@@ -11,7 +11,7 @@ const nunito = Nunito({ subsets: ['latin'] });
 export const metadata = {
 	title: 'Alan Tanaka | Desenvolvedor',
 	description:
-		'Portfólio de Alan Tanaka, desenvolvedor front-end com 2 anos de experiência na criação de aplicações web.',
+		'Portfólio de Alan Tanaka, desenvolvedor front-end com +2 anos de experiência na criação de aplicações web.',
 };
 
 export default function RootLayout({

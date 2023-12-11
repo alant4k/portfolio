@@ -55,7 +55,7 @@ export default function Intro() {
 				className="mb-10 mt-4 px-4 font-medium text-2xl !leading-[1.5]"
 			>
 				<span className="font-bold">Olá, eu sou Alan.</span> Desenvolvedor{' '}
-				<span className="font-bold">Front-end</span> com{' '}
+				<span className="font-bold">Front-end</span> com mais de{' '}
 				<span className="font-bold">2 anos</span> de experiência em
 				desenvolvimento de aplicações web. Minha especialidade é em{' '}
 				<span className="underline">React(Next.js)</span>.
