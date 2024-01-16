@@ -27,12 +27,11 @@ export default function About() {
 				de que outras pessoas enfrentam dificuldades semelhantes diariamente.
 				Afinal, a programação pode ser aplicada em várias soluções. Foi então
 				que entendi meu propósito de me tornar um especialista nessa área. Em
-				2021 iniciei no meu primeiro cargo como Desenvolvedor Front-end. Desde
-				então busco me aprimorar para ser um profissional qualificado,
+				2021 iniciei no meu primeiro cargo como Desenvolvedor Front-end e, desde
+				então, tenho buscado me aprimorar para ser um profissional qualificado,
 				investindo em cursos e leituras constantes.
 			</p>
-			<p className="mb-3"></p>
-			<p>
+			<p className="mb-3">
 				Minhas stacks principais são{' '}
 				<span className="font-semibold"> React, Next.js e Node.js</span>. Também
 				estou familiarizado com{' '}
