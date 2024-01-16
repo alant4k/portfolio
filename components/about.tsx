@@ -19,9 +19,9 @@ export default function About() {
 				Em 2017, enquanto trabalhava como técnico de suporte em uma empresa de
 				software, criei um sistema gerenciamento de senhas simples executado
 				através de uma interface de linha de comando. Desenvolvi essa solução
-				para atender a uma necessidade persistente que me incomodava há algum
-				tempo: a prática de anotar minhas senhas em papel ou salvá-las em um
-				arquivo de texto.
+				para atender a uma necessidade que me incomodava há algum tempo: a
+				prática de anotar minhas senhas em papel ou salvá-las em um arquivo de
+				texto.
 			</p>
 			<p className="mb-3">
 				Quando finalmente concluí este projeto, fiquei intrigado com a realidade
