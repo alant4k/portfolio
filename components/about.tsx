@@ -14,21 +14,24 @@ export default function About() {
 			id="about"
 			ref={ref}
 		>
-			{/* Em 2017, enquanto trabalhava como técnico de suporte em uma empresa de software, um colega me enviou o livro "Curso Intensivo de Python" (ed. Novatec). Diante das tarefas rotineiras, comecei a lê-lo para passar o tempo. */}
 			<SectionHeading>Minha História</SectionHeading>
 			<p className="mb-3">
-				Existiu um tempo em que não me via como programador. Em 2017, enquanto
-				trabalhava como técnico de suporte em uma empresa de software, um colega
-				me enviou o livro{' '}
-				<span className="italic">Curso Intensivo de Python</span> (ed. Novatec).
-				Diante das tarefas rotineiras, comecei a lê-lo para passar o tempo. Em
-				pouco tempo, me vi fascinado por algo que antes era um enigma para mim,
-				sobretudo porque a programação sempre pareceu um conceito obscuro. Desde
-				aquele ponto, decidi seguir esse caminho e me tornar um profissional,
-				investindo em cursos e leituras constantes. Em 2021, ingressei na{' '}
-				<span className="underline">Trybe</span> e, em um ano, alcancei meu
-				objetivo: iniciei no meu primeiro cargo como Desenvolvedor Front-end.
+				Em 2017, enquanto trabalhava como técnico de suporte em uma empresa de
+				software, criei um sistema gerenciamento de senhas simples executado
+				através de uma interface de linha de comando. Desenvolvi como forma de
+				solucionar uma necessidade que há tempos me incomodava de escrever
+				minhas senhas em um papel ou salvar em um arquivo de texto.
 			</p>
+			<p className="mb-3">
+				Quando finalmente concluí este projeto, fiquei intrigado com a realidade
+				de que outras pessoas enfrentam dificuldades semelhantes diariamente.
+				Afinal, a programação pode ser aplicada em várias soluções. Foi então
+				que entendi meu propósito de me tornar um especialista nessa área. Em
+				2021 iniciei no meu primeiro cargo como Desenvolvedor Front-end. Desde
+				então busco me aprimorar para ser um profissional qualificado,
+				investindo em cursos e leituras constantes.
+			</p>
+			<p className="mb-3"></p>
 			<p>
 				Minhas stacks principais são{' '}
 				<span className="font-semibold"> React, Next.js e Node.js</span>. Também
@@ -37,8 +40,7 @@ export default function About() {
 					TypeScript, Vue, MySQL, MongoDB, Python, Git, Docker e AWS
 				</span>{' '}
 				. Estou em constante busca de adquirir novos conhecimentos e
-				colaborações. Atualmente estou procurando uma posição em tempo integral
-				como <span className="font-semibold">Desenvolvedor Front-end</span>.
+				colaborações.
 			</p>
 
 			<p>
