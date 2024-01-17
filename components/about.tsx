@@ -17,10 +17,10 @@ export default function About() {
 			<SectionHeading>Minha História</SectionHeading>
 			<p className="mb-3">
 				Em 2017, enquanto trabalhava como técnico de suporte em uma empresa de
-				software, criei um sistema gerenciamento de senhas simples executado
-				através de uma interface de linha de comando. Desenvolvi essa solução
-				para atender a uma necessidade que me incomodava há algum tempo: a
-				prática de anotar minhas senhas em papel ou salvá-las em um arquivo de
+				software, criei um programa simples para gerenciamento de senhas
+				executado através de uma interface de linha de comando. Desenvolvi essa
+				solução para atender a uma necessidade que me incomodava há algum tempo:
+				a prática de anotar minhas senhas em papel ou salvá-las em um arquivo de
 				texto.
 			</p>
 			<p className="mb-3">
