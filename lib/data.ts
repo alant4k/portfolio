@@ -66,7 +66,15 @@ export const projectsData = [
 		title: 'Auth App',
 		description:
 			'App Next 14: autenticação, permissões, recuperação senha (email), verificação em duas etapas, login social (Google, Github), etc.',
-		tags: ['Next', 'React', 'Tailwind', 'shadcn/ui', 'NextAuth', 'Resend'],
+		tags: [
+			'Next',
+			'React',
+			'Tailwind',
+			'shadcn/ui',
+			'Prisma',
+			'NextAuth',
+			'Resend',
+		],
 		imageUrl: aapp,
 		source: 'https://auth-app-189.vercel.app/',
 	},
@@ -74,7 +82,7 @@ export const projectsData = [
 		title: 'Car Showcase',
 		description:
 			'Website de exposição de carros com pesquisa por fabricante, modelo, ano e mais.',
-		tags: ['React', 'Next', 'Typescript', 'Tailwind'],
+		tags: ['Next', 'React', 'Typescript', 'Tailwind', 'CSS'],
 		imageUrl: cars,
 		source: 'https://car-showcase-zk.vercel.app/',
 	},
@@ -82,7 +90,7 @@ export const projectsData = [
 		title: 'GPanel',
 		description:
 			'Painel administrativo interativo com tabelas, formulários, validações, gráficos e uma variedade de elementos para uma experiência completa.',
-		tags: ['React', 'Vite', 'Material UI'],
+		tags: ['React', 'Vite', 'Material UI', 'Formik', 'Nivo'],
 		imageUrl: gpanel,
 		source: 'https://gpanel-six.vercel.app/',
 	},
