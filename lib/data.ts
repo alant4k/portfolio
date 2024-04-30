@@ -4,7 +4,7 @@ import { TbCertificate } from 'react-icons/tb';
 
 import gpanel from '@/public/gp.png';
 import cars from '@/public/cars.png';
-import learning_log from '@/public/LL.png';
+import aapp from '@/public/aapp.png';
 import node_api from '@/public/api.png';
 
 export const links = [
@@ -63,10 +63,18 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
+		title: 'Auth App',
+		description:
+			'App Next 14: autenticação, permissões, recuperação senha (email), verificação em duas etapas, login social (Google, Github), etc.',
+		tags: ['Next', 'React', 'Tailwind', 'shadcn/ui', 'NextAuth', 'Resend'],
+		imageUrl: aapp,
+		source: 'https://auth-app-189.vercel.app/',
+	},
+	{
 		title: 'Car Showcase',
 		description:
 			'Website de exposição de carros com pesquisa por fabricante, modelo, ano e mais.',
-		tags: ['React', 'Next.js', 'Typescript', 'Tailwind'],
+		tags: ['React', 'Next', 'Typescript', 'Tailwind'],
 		imageUrl: cars,
 		source: 'https://car-showcase-zk.vercel.app/',
 	},
@@ -85,14 +93,6 @@ export const projectsData = [
 		tags: ['Node', 'Typescript', 'Docker', 'MongoDB', 'Mocha'],
 		imageUrl: node_api,
 		source: 'https://github.com/alant2031/users-ts-api',
-	},
-	{
-		title: 'Learning Log',
-		description:
-			'Uma aplicação de diário de aprendizado onde os usuários podem criar tópicos e registrar suas entradas, com funcionalidades de autenticação de usuário.',
-		tags: ['Python', 'Django', 'Bootstrap'],
-		imageUrl: learning_log,
-		source: 'https://github.com/alant2031/LearningLog',
 	},
 ] as const;
 
