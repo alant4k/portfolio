@@ -52,12 +52,12 @@ export const experiencesData = [
 		date: '10/2021 - 06/2022',
 	},
 	{
-		title: 'Desenvolvedor Back-end',
-		location: 'Grupo Fornecedora',
+		title: 'Desenvolvedor Front-end',
+		location: 'WanSoft Brazil',
 		description:
-			'Trabalhar com APIs de terceiros, integrando-as ao aplicativo para acessar dados externos ou serviços. Realizar manutenção contínua do aplicativo, corrigindo problemas, fazendo melhorias e atualizando recursos conforme necessário.',
+			'Integração com Back-end: Colabora com desenvolvedores back-end para integrar a interface com os sistemas e serviços necessários, utilizando APIs e outras tecnologias.',
 		icon: createElement(CgWorkAlt),
-		date: '06/2022 - 01/2023',
+		date: '02/2024 - 06/2024',
 	},
 ] as const;
 
