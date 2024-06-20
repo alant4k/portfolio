@@ -39,7 +39,7 @@ export const experiencesData = [
 		title: 'Formação Web Full Stack',
 		location: 'Trybe',
 		description:
-			'Com mais de 1400 horas de aula em um ano, aprimorei fundamentos sobre aplicações web com HTML, CSS, JavaScript e React. No back-end, criei projetos com Node.js e Express, e trabalhei com bancos de dados relacionais e não relacionais. Também adquiri conhecimentos sobre testes com Mocha, Chai e Python. Além das habilidades técnicas, também desenvolvi soft skills importantes, como trabalho em equipe, comunicação e autogestão.',
+			'Com mais de 1400 horas de aula em um ano, aprimorei fundamentos sobre aplicações web com HTML, CSS, JavaScript e React. No back-end, criei projetos com Node.js e Express, e trabalhei com bancos de dados relacionais e não relacionais. Além das habilidades técnicas, também desenvolvi soft skills importantes.',
 		icon: createElement(TbCertificate),
 		date: '2021 - 2022',
 	},
@@ -47,7 +47,7 @@ export const experiencesData = [
 		title: 'Desenvolvedor Front-end',
 		location: 'Ubistart',
 		description:
-			'Desenvolvimento de código. Design responsivo. Otimizar o desempenho das páginas web. Trabalhar em estreita colaboração com designers, desenvolvedores e outros membros da equipe para garantir a integração adequada da aplicação.',
+			'Desenvolvimento de Interfaces de Usuário: Responsável por traduzir designs de UI/UX em código funcional utilizando linguagens como HTML, CSS e JavaScript.',
 		icon: createElement(CgWorkAlt),
 		date: '10/2021 - 06/2022',
 	},
