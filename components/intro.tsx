@@ -58,7 +58,7 @@ export default function Intro() {
 				<span className="font-bold">Frontend</span> com{' '}
 				<span className="font-bold">2 anos</span> de experiência em
 				desenvolvimento de aplicações web. Minha especialidade é em{' '}
-				<span className="underline">React(Next.js)</span>.
+				<span className="underline">React(Next)</span>.
 			</motion.h1>
 			<motion.div
 				initial={{ opacity: 0, y: 100 }}
