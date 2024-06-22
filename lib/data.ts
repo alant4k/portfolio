@@ -44,7 +44,7 @@ export const experiencesData = [
 		date: '2021 - 2022',
 	},
 	{
-		title: 'Desenvolvedor Front-end',
+		title: 'Desenvolvedor Frontend',
 		location: 'Ubistart',
 		description:
 			'Desenvolvimento de Interfaces de Usuário: Responsável por traduzir designs de UI/UX em código funcional utilizando linguagens como HTML, CSS e JavaScript.',
@@ -52,7 +52,7 @@ export const experiencesData = [
 		date: '10/2021 - 06/2022',
 	},
 	{
-		title: 'Desenvolvedor Front-end',
+		title: 'Desenvolvedor Frontend',
 		location: 'WanSoft Brazil',
 		description:
 			'Integração com Back-end: Colabora com desenvolvedores back-end para integrar a interface com os sistemas e serviços necessários, utilizando APIs e outras tecnologias.',
