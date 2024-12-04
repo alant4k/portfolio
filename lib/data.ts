@@ -128,5 +128,5 @@ export const skillsData = [
   "Git",
   "Docker",
   "Supabase",
-  "AWS",
+  "SCRUM",
 ] as const;
