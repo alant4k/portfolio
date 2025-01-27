@@ -93,7 +93,7 @@ export default function Intro() {
 					<BsLinkedin />{' '}
 				</a>
 				<a
-					href="https://github.com/alant2031"
+					href="https://github.com/alant4k"
 					target="_blank"
 					className="bg-white dark:bg-white/10 dark:text-white/60 p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
 				>

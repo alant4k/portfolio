@@ -99,7 +99,7 @@ export const projectsData = [
 			"API com banco de dados. Ela possui métodos HTTP para criação, leitura, edição e remoção de recursos. Também contém testes automatizados. ",
 		tags: ["Node", "Typescript", "Docker", "MongoDB", "Mocha"],
 		imageUrl: node_api,
-		source: "https://github.com/alant2031/users-ts-api",
+		source: "https://github.com/alant4k/users-ts-api",
 	},
 ] as const;
 
